@@ -129,6 +129,18 @@ h2 {
   padding: 3em;
 }
 
+.grid {
+margin: 15rem;
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+
+
+}
+.grid img {
+  max-width: 100%;
+}
+
 
 
 
